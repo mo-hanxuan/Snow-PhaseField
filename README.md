@@ -4,7 +4,7 @@
 | <img src="./README.assets/snow_6fold.gif" width="350" /> | <img src="./README.assets/snow_4fold.gif" width="350"/> |
 | :------------------------------------------------: | :-----------------------------------------------: |
 
-| <img src="README.assets/time_0.2016s.png" style="zoom:50%;" /> | <img src="README.assets/time_0.1888s_fold4.png" style="zoom:50%"> |
+| <img src="README.assets/time_0.2016s.png" width="350" /> | <img src="README.assets/time_0.1888s_fold4.png" width="350"> |
 | :------------------------------------------------------: |:----------------------------------------------------------: |
 
 ## Installation and Usage
@@ -46,7 +46,7 @@ $\psi^{che} = \frac{1}{4}\phi^{4} - (\frac{1}{2} - \frac{1}{3}m(T))\phi^{3} +(\f
 
 where $T_{e}$ is the equilibrium temperature.  Such a chemical energy varies with temperature as shown in following Fig. 1, which generates tendency for solidification at low temperature ($T < T_{e}$) and generates tendency for vaporizing at high temperature ($T > T_{e}$). 
 
-<img src="README.assets/image-20220917104022775.png" alt="image-20220917104022775" style="zoom:67%;" />
+<img src="README.assets/image-20220917104022775.png" alt="image-20220917104022775" width="350" />
 
 <center><em>Fig. 1 Chemical energy density varies with temperature </em></center>
 
