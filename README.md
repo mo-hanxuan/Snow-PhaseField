@@ -1,10 +1,10 @@
 # Snowflake by Phase Field
 ## Crystalline growth of dendrite snow simulated by phase field with Taichi-based cross-platform parallel (CPU/**GPU**) computing
 
-| <img src="./README.assets/snow_6fold.gif" width="350" /> | <img src="./README.assets/snow_4fold.gif" width="350"/> |
+| <img src="./README.assets/snow_6fold.gif" width="300" /> | <img src="./README.assets/snow_4fold.gif" width="300"/> |
 | :------------------------------------------------: | :-----------------------------------------------: |
 
-| <img src="README.assets/time_0.2016s.png" width="350" /> | <img src="README.assets/time_0.1888s_fold4.png" width="350"> |
+| <img src="README.assets/time_0.2016s.png" width="300" /> | <img src="README.assets/time_0.1888s_fold4.png" width="300"> |
 | :------------------------------------------------------: |:----------------------------------------------------------: |
 
 ## Installation and Usage
@@ -42,13 +42,15 @@ Free energy contains chemical energy and interface energy.
 
 The chemical energy determines the transition potential between vapor and ice. When temperature is high, ice tends to transform to vapor, indicating that vapor has lower potential than ice; otherwise then temperature is low, vapor tends to solidify to ice, indicating that ice has lower potential than vapor. Thus, the chemical energy density (here we use volume density, different from chemical potential defined by mole density) should be a function of temperature, which can be constructed as [[Physica D 63(3-4): 410-423](https://www.sciencedirect.com/science/article/abs/pii/016727899390120P)]:
 
-$\psi^{che} = \frac{1}{4}\phi^{4} - (\frac{1}{2} - \frac{1}{3}m(T))\phi^{3} +(\frac{1}{4} - \frac{1}{2}m(T))\phi^{2}$ ,   with $m(T) = (\alpha/\pi)tan^{-1}[\gamma(T_{e} - T)]$
+$$\psi^{che} = \frac{1}{4}\phi^{4} - (\frac{1}{2} - \frac{1}{3}m(T))\phi^{3} +(\frac{1}{4} - \frac{1}{2}m(T))\phi^{2}$$
+$$with\ \ m(T) = (\alpha/\pi)tan^{-1}[\gamma(T_{e} - T)]$$
 
 where $T_{e}$ is the equilibrium temperature.  Such a chemical energy varies with temperature as shown in following Fig. 1, which generates tendency for solidification at low temperature $(T < T_{e})$ and generates tendency for vaporizing at high temperature $(T > T_{e})$. 
 
+<center>
 <img src="README.assets/image-20220917104022775.png" alt="image-20220917104022775" width="350" />
 
-<center><em>Fig. 1 Chemical energy density varies with temperature </em></center>
+<em>Fig. 1 Chemical energy density varies with temperature </em></center>
 
 You can also see that there is a energy barrier in Fig. 1 between gas and solid phase, so that the transition needs other kinds of energy to overcome this transition barrier, such as the interface energy. For example, vapor tends to solidify at the interface of a nucleus, since the nucleus's interface energy helps overcoming the transition barrier of solidification. 
 
