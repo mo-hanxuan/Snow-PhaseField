@@ -42,7 +42,7 @@ class Dendrite:
         self.weights_rk4 = ti.field(ti.f64, shape=(4)); self.weights_rk4.from_numpy(np.array([1./6., 1./3., 1./3., 1./6.]))
         
         self.showFrameFrequency = int(4 * 1.e-4 / self.dt)
-        self.writeImages = True  # setting to True will write images to results folder
+        self.writeImages = False  # setting to True will write images to results folder
 
 
     @ti.kernel
