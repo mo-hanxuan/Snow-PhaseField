@@ -63,7 +63,7 @@ where $\epsilon$ is an anisotropic parameter which depends on the orientation of
 
 $\epsilon(\nabla\phi) = \overline{\epsilon}(1 + \delta cos[j(\theta - \theta_{0})])$,  where $\theta$ is the angle between interface normal and x-axis, expressed as $\theta(\nabla\phi) = \angle(\nabla\phi, \overrightarrow{x} )$ .
 
-The total free energy (functional of $\phi(\boldsymbol{x})$) containing both the chemical energy and interface energy is:
+The total free energy $\Psi$ is a functional of $\phi(\boldsymbol{x})$, containing both the chemical energy and interface energy:
 
 $$\Psi[\phi(\boldsymbol{x})] = \int \psi(\phi(\boldsymbol{x}), \nabla_{\boldsymbol{x}}\phi) d\Omega = \int (\psi^{che} +\psi^{gra})d\Omega$$
 
