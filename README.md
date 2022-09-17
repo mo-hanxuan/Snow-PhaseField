@@ -73,7 +73,7 @@ The governing equation for $\dot{\phi}(\boldsymbol{x})$ takes Ginzburg-Landau eq
 
 $$\dot{\phi}(\boldsymbol{x}) = -M\frac{\delta\Psi[\phi(\boldsymbol{x})]}{\delta\phi(\boldsymbol{x})} = M(-\frac{\partial\psi}{\partial\phi(\boldsymbol{x})}+\nabla\cdot\frac{\partial\psi}{\partial\nabla_{\boldsymbol{x}}\phi})$$
 
-where the first term and second term of $-\frac{\partial\psi}{\partial\phi(\boldsymbol{x})}+\nabla\cdot\frac{\partial\psi}{\partial\nabla_{\boldsymbol{x}}\phi}$ can be interpreted as the driving forces from chemical energy and interface energy respectively. 
+where $M$ is the mobility,  $-\frac{\partial\psi}{\partial\phi(\boldsymbol{x})}$ and $\nabla\cdot\frac{\partial\psi}{\partial\nabla_{\boldsymbol{x}}\phi}$ can be interpreted as the driving forces from chemical energy and interface energy respectively. 
 
 ### Temperature field
 
