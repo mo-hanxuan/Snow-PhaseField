@@ -44,7 +44,7 @@ The chemical energy determines the transition potential between vapor and ice. W
 
 $\psi^{che} = \frac{1}{4}\phi^{4} - (\frac{1}{2} - \frac{1}{3}m(T))\phi^{3} +(\frac{1}{4} - \frac{1}{2}m(T))\phi^{2}$ ,   with $m(T) = (\alpha/\pi)tan^{-1}[\gamma(T_{e} - T)]$
 
-where $T_{e}$ is the equilibrium temperature.  Such a chemical energy varies with temperature as shown in following Fig. 1, which generates tendency for solidification at low temperature ($T < T_{e}$) and generates tendency for vaporizing at high temperature ($T > T_{e}$). 
+where $T_{e}$ is the equilibrium temperature.  Such a chemical energy varies with temperature as shown in following Fig. 1, which generates tendency for solidification at low temperature $(T < T_{e})$ and generates tendency for vaporizing at high temperature $(T > T_{e})$. 
 
 <img src="README.assets/image-20220917104022775.png" alt="image-20220917104022775" width="350" />
 
