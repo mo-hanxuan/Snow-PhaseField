@@ -1,6 +1,7 @@
 """ use phase field model to get snow dendrite evolution
     this simulates the snow growing from water vapor
-    water crystal has 2-D 6-fold symmetric crystalline structure
+    ice crystal has 2-D 6-fold symmetric crystalline structure
+    repo's link: https://github.com/mo-hanxuan/Snow-PhaseField
     for more details and physcal interpretation, you can refer to 'Physica D 63(3-4): 410-423'
     time integration scheme: use 4th-order Runge-Kutta method (RK4 method) """
 import taichi as ti
