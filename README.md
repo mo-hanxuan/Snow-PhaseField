@@ -61,7 +61,7 @@ $$\psi^{gra} = \frac{1}{2}\epsilon^{2}(\nabla\phi)^{2}$$
 
 where $\epsilon$ is an anisotropic parameter which depends on the orientation of $\nabla\phi$ as
 
-$\epsilon(\nabla\phi) = \overline{\epsilon}(1 + \delta cos[j(\theta - \theta_{0})])$,  where $j$ is the anisotropic mode (indicating [j-fold rotational symmetry](https://en.wikipedia.org/wiki/Rotational_symmetry) of dendrites), $\theta$ is the angle between interface normal and x-axis, expressed as $\theta(\nabla\phi) = \angle(\nabla\phi, \overrightarrow{x} )$ .
+$\epsilon(\nabla\phi) = \overline{\epsilon}(1 + \delta cos[j(\theta - \theta_{0})])$,  where $j$ is the anisotropic mode (indicating [j-fold symmetry](https://en.wikipedia.org/wiki/Rotational_symmetry) of dendrites), $\theta$ is the angle between interface normal and x-axis, expressed as $\theta(\nabla\phi) = \angle(\nabla\phi, \overrightarrow{x} )$ .
 
 The total free energy $\Psi$ is a functional of $\phi(\boldsymbol{x})$, containing both the chemical energy and interface energy:
 
